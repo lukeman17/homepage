@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'Zen Dots';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/zendots/v1/XRXX3ICfm00IGoesQdaDRs7nczIH.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #e9ecef;
+}
+
+header h1{
+    font-family: 'Zen Dots';
+    margin-left: 20px;
+}
+
+header nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.showBtn2{
+    padding: 5px;
+
+}
+.showBtn2:hover{
+    box-shadow: 1px 1px 3px royalblue;
+    background-color: #e9ecef;
+    color: royalblue;
+}
+
+
+#showBtn{
+    border: 2px solid royalblue;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: royalblue;
+    color: white;
+}
+
+#showBtn:hover{
+    background-color: white;
+    color: royalblue;
+}
+/* Main section */
+
+#cover{ 
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
+#uvp{
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+#uvp h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#btn {
+    border: 2px solid royalblue;
+    border-radius: 4px;
+    background-color: royalblue;
+    color: white;
+    width: 80px;
+    height: 17px;
+    padding: 5px;
+    letter-spacing: 1px;
+    justify-content: center;
+    font-weight: bold; 
+}
+
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: royalblue;
+}
+
+#description{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 330px;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+#description img{
+    border-radius: 3px;
+}
+#description p{
+    margin: 5px;
+}
+
+#supercar{
+    margin-left: 5px;
+    width: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#supercar img:hover{
+    transition: .3s ease;
+    transform: scale(1.1); 
+}
+
+#description h1{
+    background-color: #e9ecef;
+}
+
+#suv{
+    width: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#suv img:hover{
+    transition: .3s ease;
+    transform: scale(1.1); 
+}
+
+#hatch{
+    width: 300px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#hatch img:hover{
+    transition: .3s ease;
+    transform: scale(1.1); 
+}
+
+#sedan{
+    width: 300px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#sedan img:hover{
+    transition: .3s ease;
+    transform: scale(1.1); 
+}
+
+/* Team Section */
+
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top: 400px;
+}
+
+#team h1{
+    width: 100%;
+    text-align: center;
+    background-color: #F90F00;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+#members{
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#leo{
+    width: 200px;
+    margin: 20px;
+}
+
+#leo img{
+    object-fit: cover;
+    background-position: center;
+    height: auto;
+}
+div.trim {
+    max-height: 200px;
+    max-width: auto;
+    overflow: hidden;
+}
+
+#leo:hover{
+    transition: .3s ease;
+    background-color: #e9ecef;;
+}
+
+#sean{
+    width: 200px;
+    margin: 20px;
+}
+
+#sean:hover{
+    transition: .3s ease;
+    background-color: #e9ecef;
+}
+
+#members img{
+    margin-top: 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#info{
+    padding-top: 0px;
+    margin: 0px;
+}
+
+#bella{
+    width: 200px;
+    margin: 20px;
+}
+
+#bella:hover{
+    transition: .3s ease;
+    background-color: #e9ecef;;
+}
+
+#members img{
+    margin-top: 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#info{
+    padding-top: 0px;
+    margin: 0px;
+}
+
+#bella img{
+    object-fit: cover;
+    background-position: center;
+    height: 200px;
+}
+
+
